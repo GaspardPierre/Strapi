@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Bloggy",
+      "description": "Un blog pour gérer , publier des photos, des vidéos pour adolescents en décrochage scolaire",
+      "image": "../public/bloggt.jpg"
+    },
+    {
+      "id": 2,
+      "title": "PLume2.0",
+      "description": "Un blog de poésie destinée à faire connaitre le travail d'un poète en devenir",
+      "image": "../public/Plume2-0.png"
+    },
+    {
+      "id": 3,
+      "title": "GitubAPI",
+      "description": "Un moteur de recherche pour des repos Github",
+      "image": "../public/Github.png"
+    }
+  ]

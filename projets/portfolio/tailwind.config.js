@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/page/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -18,7 +18,12 @@ module.exports = {
         'header': '#F2FAFB',
         'navlink' : '#107D98',
         'navhover':'#0D3C48',
-        'xsmenu' :'#00A2C7'
+        'xsmenu' :'#00A2C7',
+        'section':'#0797B9',
+        'section-2':'#0D3C48',
+        'button' :'#3DB9CF',
+        'border-1':'#7DCEDC',
+        'border-2' :'#12677E'
       },
       transitionProperty: {
         'width': 'width'
