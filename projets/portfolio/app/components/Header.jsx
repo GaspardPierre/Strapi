@@ -9,7 +9,7 @@ export default function Header( {isMenuOpen, setIsMenuOpen}) {
   const menuRef = useRef();
   useOutsideClick(menuRef, () => setIsMenuOpen(false));
   return (
-    <header className="flex justify-between items-center p-5  bg-header w-full z-100 sticky z-50 top-0">
+    <header className="flex justify-between items-center p-5  bg-header w-full z-100 sticky z-50 top-0 mx-auto">
       <div className="w-24 rounded-full overflow-hidden">
         <Image
           src="/pierre.jpg"
@@ -17,6 +17,7 @@ export default function Header( {isMenuOpen, setIsMenuOpen}) {
           height={96}
           alt="Profile image"
           className="object-cover"
+          priority
         />
       </div>
 

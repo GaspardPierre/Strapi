@@ -15,9 +15,13 @@ export default function ProjectsList() {
 
     <h2 className="text-4xl font-heading mb-8 text-center hover:text-white transition-colors duration-400 ease-in"
     id="projects">Projects</h2></AnimatedElement>
-    <div className='flex flex-col md:flex-row justify-center  gap-6 md:gap-10 lg:gap-12'
+  
+ 
+  
+    <div className='flex flex-col md:flex-row justify-center items-center gap-6  '
     >
       {projects.map(project => (
+     
           <ProjectCard
           key={project.id}
           name={project.title}
@@ -25,8 +29,11 @@ export default function ProjectsList() {
           id={project.id}
           img={project.image}
         />
+    
       ))}
     </div>
+    
+    
     </>
   );
 }

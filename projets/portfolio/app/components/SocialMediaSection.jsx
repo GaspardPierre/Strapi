@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link';
 import { FaGithub, FaTwitter, FaYoutube, FaLinkedin, FaDiscord } from 'react-icons/fa';
 import { IoMail } from 'react-icons/io5';

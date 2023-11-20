@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import SkillSection from './SkillSection';
 import AnimatedElement from './AnimatedElement';
@@ -6,9 +7,9 @@ export default function AboutSection() {
   return (
     <>
       <section className="flex flex-col justify-center items-center bg-gradient-to-r from-section to-section-2 p-6 " >
-        <div className="container mx-auto px-4 ">
+        <div className="container mx-auto px-0 md:px-4 ">
       
-            <div className='container mx-auto px-4 w-2/3'>
+            <div className='container mx-auto px-4 md:w-2/3 '>
             <AnimatedElement>
                 <h2 className="text-4xl font-heading my-5 text-center
               "

@@ -5,6 +5,7 @@ import Section from './components/Section'
 import Footer from './components/Footer'
 import AboutSection from './components/AboutSection'
 import ProjectsList from './components/ProjectList';
+import ContactSection from'./components/ContactSection';
 export default function Home() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ export default function Home() {
    
      <AboutSection/>
      <ProjectsList />
+     <ContactSection />
     
      
       </main>

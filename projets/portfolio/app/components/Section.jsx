@@ -42,6 +42,7 @@ export default function Section() {
           width={512}
           height={512}
           alt="Profile image"
+          priority
           className="object-cover hidden lg:block"
         />
         </div>
