@@ -73,7 +73,7 @@ export default function Header( {isMenuOpen, setIsMenuOpen}) {
       {/* Modal for menu links */}
       <div
         ref={menuRef}
-        className={`fixed inset-y-0 right-0  z-100 ${
+        className={` md:relative fixed inset-y-0 right-0  z-100 ${
           isMenuOpen ? "w-1/2" : "w-0"
         } sm:w-auto bg-xsmenu  transition-width duration-300 ease-in-out sm:bg-transparent`}
       >

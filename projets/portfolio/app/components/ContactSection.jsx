@@ -98,7 +98,7 @@ export default function Contact  ()  {
         </div>
         <button
           type="submit"
-          className="w-full bg-gradient-to-r from-section-2 to-navlink button text-header font-bold py-3 px-4 rounded hover:bg-navhover "
+          className="w-full bg-gradient-to-r from-section-2 to-navlink button  text-header font-bold py-3 px-4 rounded hover:bg-navhover "
         >
           Send Message
         </button>

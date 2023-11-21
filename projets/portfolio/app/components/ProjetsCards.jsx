@@ -11,7 +11,7 @@ export default function ProjectCard({ name, description,id ,link}) {
  
 
   
-    <div className="bg-navhover border border-border-2 hover:border-border-1 transition duration-400 p-4 rounded-lg w-4/5 lg:w-1/4 "
+    <div className="bg-navhover border border-border-2 hover:border-border-1 transition duration-400 p-4 rounded-lg w-4/5 md:w-1/4 "
     key={id}>
         <AnimatedElement>
       <h3 className="text-white text-2xl font-heading text-center break-words py-3">{name}</h3></AnimatedElement>

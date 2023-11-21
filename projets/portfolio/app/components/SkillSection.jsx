@@ -15,33 +15,33 @@ export default function SkillSection() {
         <AnimatedElement>
           <div>
             <h3 className="text-2xl font-heading mb-4 text-center text-white">Design</h3>
-            <p className="font-body text-center lg:py-3"><FontAwesomeIcon icon={faFigma} className="mr-2" />Figma</p>
-            <p className="font-body text-center text-white lg:py-3"><FontAwesomeIcon icon={faCss3Alt} className="mr-2" />Tailwind</p>
+            <p className="font-body text-center md:py-3"><FontAwesomeIcon icon={faFigma} className="mr-2" />Figma</p>
+            <p className="font-body text-center text-white md:py-3"><FontAwesomeIcon icon={faCss3Alt} className="mr-2" />Tailwind</p>
           </div>
         </AnimatedElement>
         <AnimatedElement>
           <div>
             <h3 className="text-2xl font-heading mb-4 text-center">Front-end</h3>
-            <p className="font-body text-center text-white lg:py-3"><FontAwesomeIcon icon={faJsSquare} className="mr-2" />Redux</p>
+            <p className="font-body text-center text-white md:py-3"><FontAwesomeIcon icon={faJsSquare} className="mr-2" />Redux</p>
       
-            <p className="font-body text-center text-white lg:py-3"><FontAwesomeIcon icon={faReact} className="mr-2" />React</p>
+            <p className="font-body text-center text-white md:py-3"><FontAwesomeIcon icon={faReact} className="mr-2" />React</p>
            
           </div>
         </AnimatedElement>
         <AnimatedElement>
           <div>
             <h3 className="text-2xl font-heading mb-4 text-center text-white">Back-end</h3>
-            <p className="font-body text-center lg:py-3"><FontAwesomeIcon icon={faNodeJs} className="mr-2" />Node.js</p>
-            <p className="font-body text-center text-white lg:py-3"><FontAwesomeIcon icon={faDatabase} className="mr-2" />Prisma</p>
-            <p className="font-body text-center lg:py-3"><FontAwesomeIcon icon={faDatabase} className="mr-2" />PostgreSQL</p>
+            <p className="font-body text-center md:py-3"><FontAwesomeIcon icon={faNodeJs} className="mr-2" />Node.js</p>
+            <p className="font-body text-center text-white md:py-3"><FontAwesomeIcon icon={faDatabase} className="mr-2" />Prisma</p>
+            <p className="font-body text-center md:py-3"><FontAwesomeIcon icon={faDatabase} className="mr-2" />PostgreSQL</p>
           </div>
         </AnimatedElement>
         <AnimatedElement>
           <div>
             <h3 className="text-2xl font-heading mb-4 text-center">Other</h3>
-            <p className="font-body text-center text-white lg:py-3"><FontAwesomeIcon icon={faGitAlt} className="mr-2" />Git & GitHub</p>
-            <p className="font-body text-center lg:py-3"><FontAwesomeIcon icon={faTasks} className="mr-2" />Trello</p>
-            <p className="font-body text-center text-white lg:py-3"><FontAwesomeIcon icon={faComments} className="mr-2" />ChatGPT</p>
+            <p className="font-body text-center text-white md:py-3"><FontAwesomeIcon icon={faGitAlt} className="mr-2" />Git & GitHub</p>
+            <p className="font-body text-center md:py-3"><FontAwesomeIcon icon={faTasks} className="mr-2" />Trello</p>
+            <p className="font-body text-center text-white md:py-3"><FontAwesomeIcon icon={faComments} className="mr-2" />ChatGPT</p>
           </div>
         </AnimatedElement>
       </div>

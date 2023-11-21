@@ -57,14 +57,7 @@ export default function Section() {
 
 
        </AnimatedElement>
-   <AnimatedElement>
-         <div className="flex flex-col items-center w-full md:justify-center md:w-2.5">
-         <button className='p-2 sm:h-8 bg-button rounded text-white w-48 shadow-lg my-5 hover:scale-90 transition-transform duration-300 ease-in  '>
-            Available for Works
-          </button>
-         </div>
-       
-         </AnimatedElement>
+ 
         
         </div>
         

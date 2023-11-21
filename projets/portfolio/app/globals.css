@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    html {
-      @apply h-full;
-    }
-    body {
-      @apply h-full;
-    }
-  }
+body, html {
+  width: 100%;
+  overflow-x: hidden; /* Empêche le défilement horizontal */
+  margin: 0;
+  height: 100%;
+}

@@ -18,7 +18,7 @@ export default function ProjectsList() {
   
  
   
-    <div className='flex flex-col md:flex-row justify-center items-center  gap-6  '
+    <div className='flex flex-col md:flex-row justify-center items-center  gap-4  '
     >
       {projects.map(project => (
      

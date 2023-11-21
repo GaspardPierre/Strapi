@@ -14,7 +14,7 @@ export default function Home() {
 
   <div className='bg-gradient-to-r from-section to-section-2 '>
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <main className={`main-content ${isMenuOpen ? 'blur-sm' : ''}`}>
+      <main className={`w-full main-content ${isMenuOpen ? 'blur-sm' : ''}`}>
         
         <Section/>
    
@@ -25,6 +25,7 @@ export default function Home() {
      
       </main>
       <Footer/>
+     
     </div>
  
   )
