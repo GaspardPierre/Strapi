@@ -23,7 +23,7 @@ export default function Section() {
           <div className='font-body sm:my-4 leading-10 text-lg sm:text-xl flex flex-col text-center'>Hi  
           <AnimatedElement> <span className='text-2xl sm:text-4xl text-white hover:translate-x-3 transition-transform duration-400 ease-in cursor-pointer'>everyone,</span>   </AnimatedElement>
         
-            I'm <AnimatedElement><span className=' font-heading text-4xl sm:text-6xl my-4 text-white leading-10 hover:translate-x-3 transition-transform duration-400 ease-in-out cursor-pointer'>Pierre Dillard</span></AnimatedElement><AnimatedElement><strong className='text-2xl'>
+            I&apos;m <AnimatedElement><span className=' font-heading text-4xl sm:text-6xl my-4 text-white leading-10 hover:translate-x-3 transition-transform duration-400 ease-in-out cursor-pointer'>Pierre Dillard</span></AnimatedElement><AnimatedElement><strong className='text-2xl'>
             I create </strong></AnimatedElement>    <AnimatedElement><span className='text-2xl sm:text-3xl hover:translate-x-3 transition-transform duration-400 ease-in cursor-pointer'>inspiring</span>  </AnimatedElement> and 
             <AnimatedElement>  <span className='text-white text-4xl sm:text-6xl leading-10 my-3 hover:translate-x-3 transition-transform duration-400 ease-in cursor-pointer'>
               Inspired
