@@ -13,12 +13,12 @@ export default function ProjectsList() {
 <AnimatedElement>
 
 
-    <h2 className="text-4xl font-heading mb-8 text-center hover:text-white transition-colors duration-400 ease-in"
+    <h2 className="text-4xl font-heading mb-8 text-center hover:text-white transition-colors duration-400 ease-in pt-32 lg:pt-48 "
     id="projects">Projects</h2></AnimatedElement>
   
  
   
-    <div className='flex flex-col md:flex-row justify-center items-center gap-6  '
+    <div className='flex flex-col md:flex-row justify-center items-center  gap-6  '
     >
       {projects.map(project => (
      
@@ -26,6 +26,7 @@ export default function ProjectsList() {
           key={project.id}
           name={project.title}
           description={project.description}
+          link={project.link}
           id={project.id}
           img={project.image}
         />

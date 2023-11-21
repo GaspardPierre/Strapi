@@ -1,6 +1,7 @@
 "use client";
 import React, { useState , useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import AnimatedElement from './AnimatedElement';
 
 
 export default function Contact  ()  {
@@ -41,13 +42,19 @@ export default function Contact  ()  {
 
 
   return (
-    <div className="rounded-lg shadow-lg w-4/5 mx-auto my-10">
-      <h2 className="text-header text-3xl text-center font-heading mb-6">Contact Me</h2>
+    <div className="rounded-lg shadow-lg w-full mx-auto my-10 flex flex-col items-center pt-28 lg:pt-24  "
+    id="contact">
+      <AnimatedElement>
+
+     
+      <h2 className="text-header text-3xl  font-heading mb-6 lg:py-10 ">Contact Me</h2> </AnimatedElement>
+     
       <form onSubmit={handleSubmit}
-       className="space-y-6"
+       className="space-y-6 w-4/5 lg:w-3/4 xl:w-2/4 my-10"
        ref={form}>
         <div>
-          <label htmlFor="fullName" className="font-body text-white">Full Name</label>
+        <AnimatedElement>
+          <label htmlFor="fullName" className="font-body text-white">Full Name</label> </AnimatedElement>
           <input
             type="text"
             name="fullName"
@@ -60,7 +67,8 @@ export default function Contact  ()  {
           />
         </div>
         <div>
-          <label htmlFor="email" className="text-white font-body">Email</label>
+        <AnimatedElement>
+          <label htmlFor="email" className="text-white font-body">Email</label></AnimatedElement>
           <input
             type="email"
             name="email"
@@ -73,7 +81,10 @@ export default function Contact  ()  {
           />
         </div>
         <div>
-          <label htmlFor="message" className="text-white font-body">Message</label>
+          <AnimatedElement>
+
+       
+          <label htmlFor="message" className="text-white font-body">Message</label>   </AnimatedElement>
           <textarea
             name="message"
             id="message"
@@ -87,11 +98,12 @@ export default function Contact  ()  {
         </div>
         <button
           type="submit"
-          className="w-full bg-gradient-to-r from-section-2 to-navlink button text-header font-bold py-3 px-4 rounded hover:bg-navhover"
+          className="w-full bg-gradient-to-r from-section-2 to-navlink button text-header font-bold py-3 px-4 rounded hover:bg-navhover "
         >
           Send Message
         </button>
       </form>
+    
     </div>
   );
 };

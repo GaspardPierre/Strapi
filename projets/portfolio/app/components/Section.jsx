@@ -13,14 +13,14 @@ export default function Section() {
 
   return (
     <>
-      <section className="flex justify-center bg-gradient-to-r from-section to-section-2 p-5 max-h-screen lg:mt-5"
+      <section className="flex justify-center bg-gradient-to-r from-section to-section-2 p-5 max-h-screen lg:mt-5 pt-28 lg:pt-32"
       id="home">
         <div className='flex flex-col sm:flex-row justify-around w-full group'>
           <AnimatedElement>
 
         
       
-          <p className='font-body sm:my-4 leading-10 text-lg sm:text-xl flex flex-col text-center'>Hi  
+          <div className='font-body sm:my-4 leading-10 text-lg sm:text-xl flex flex-col text-center'>Hi  
           <AnimatedElement> <span className='text-2xl sm:text-4xl text-white hover:translate-x-3 transition-transform duration-400 ease-in cursor-pointer'>everyone,</span>   </AnimatedElement>
         
             I'm <AnimatedElement><span className=' font-heading text-4xl sm:text-6xl my-4 text-white leading-10 hover:translate-x-3 transition-transform duration-400 ease-in-out cursor-pointer'>Pierre Dillard</span></AnimatedElement><AnimatedElement><strong className='text-2xl'>
@@ -29,7 +29,7 @@ export default function Section() {
               Inspired
             </span>  </AnimatedElement> Websites!
           
-          </p>
+          </div>
           </AnimatedElement>
         
             <AnimatedElement>   
