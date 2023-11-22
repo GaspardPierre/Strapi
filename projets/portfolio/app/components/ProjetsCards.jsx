@@ -4,7 +4,7 @@ import { Icon } from "react-icons";
 import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 import AnimatedElement from './AnimatedElement';
 
-export default function ProjectCard({ name, description,id ,link}) {
+export default function ProjectCard({ name, description,id ,link, img}) {
   return (
  
 
@@ -14,6 +14,16 @@ export default function ProjectCard({ name, description,id ,link}) {
     <div className="bg-navhover border border-border-2 hover:border-border-1 transition duration-400 p-4 rounded-lg w-4/5 md:w-1/4 "
     key={id}>
         <AnimatedElement>
+        <div className="image-container">
+          <Image
+            src={img}
+            alt={`Image of ${name}`}
+            width={256}
+            height={256}
+            className='object-cover h-48 w-full hover:blur-sm'
+          
+          />
+        </div>
       <h3 className="text-white text-2xl font-heading text-center break-words py-3">{name}</h3></AnimatedElement>
       <AnimatedElement>
       <p className="text-gray-300 text-lg font-body break-words  py-3">{description}</p></AnimatedElement>
