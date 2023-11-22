@@ -20,7 +20,7 @@ export default function ProjectCard({ name, description,id ,link, img}) {
             alt={`Image of ${name}`}
             width={256}
             height={256}
-            className='object-cover h-48 w-full hover:blur-sm'
+            className='object-cover h-28 lg:h-48 w-full hover:blur-sm'
           
           />
         </div>
