@@ -13,7 +13,7 @@ export default function ProjectsList() {
 <AnimatedElement>
 
 
-    <h2 className="text-4xl font-heading mb-8 text-center hover:text-white transition-colors duration-400 ease-in pt-32 lg:pt-48 "
+    <h2 className="text-4xl font-heading mb-8 text-center hover:text-white transition-colors duration-400 ease-in pt-32 lg:pt-48  lg:my-6"
     id="projects">Projects</h2></AnimatedElement>
   
  

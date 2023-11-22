@@ -16,7 +16,7 @@ export default function AboutSection() {
               id="about">About Me</h2>
                </AnimatedElement>
                <AnimatedElement>
-          <p className="font-body mb-8  text-justify ">
+          <p className="font-body mb-8  text-left leading-8">
             Meet <strong>Pierre Dillard</strong>, a dynamic <strong>Fullstack Web Developer</strong>
              and experienced <strong>Sales Professional</strong>
              . Transitioning from a decade-long career in insurance sales to web development, I blend customer-centric insights with technical skills in <strong>
