@@ -1,5 +1,6 @@
 "use client"; // This is a client component
 import React ,{ useState} from 'react'
+import Head from 'next/head';
 import Header from './components/Header'
 import Section from './components/Section'
 import Footer from './components/Footer'
@@ -11,6 +12,7 @@ export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
+
 
   <div className='bg-gradient-to-r from-section to-section-2 '>
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
@@ -27,6 +29,7 @@ export default function Home() {
       <Footer/>
      
     </div>
+  
  
   )
 }
