@@ -24,9 +24,9 @@ export default function ProjectCard({ name, description,id ,link, img}) {
           
           />
         </div>
-      <h3 className="text-white text-2xl font-heading text-center break-words py-3">{name}</h3></AnimatedElement>
+      <h3 className="text-white lg:text-2xl  text-xl font-heading text-center break-words py-3">{name}</h3></AnimatedElement>
       <AnimatedElement>
-      <p className="text-gray-300 text-lg font-body break-words  py-3">{description}</p></AnimatedElement>
+      <p className="text-gray-300 lg:text-lg font-body break-words text-sm   py-3">{description}</p></AnimatedElement>
       <AnimatedElement>
       <a href={link}
       className="text-gray-300 text-sm font-body break-words"
