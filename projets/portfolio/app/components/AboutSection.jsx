@@ -17,7 +17,7 @@ export default function AboutSection() {
                </AnimatedElement>
                <AnimatedElement>
                 <p className="font-body mb-8  text-left leading-8">
-               I'm <strong>Pierre Dillard</strong>, a dynamic <em>Fullstack web developer</em> and experienced sales professional. I combine a customer-centric vision with technical skills in <strong>React</strong>, <strong>Node.js</strong>, <strong>Express</strong>, and <strong>Prisma</strong>. Whether you're looking for a showcase site, a complete e-commerce platform, or adding functionality to your site, I've got solutions for your business!
+               I m <strong>Pierre Dillard</strong>, a dynamic <em>Fullstack web developer</em> and experienced sales professional. I combine a customer-centric vision with technical skills in <strong>React</strong>, <strong>Node.js</strong>, <strong>Express</strong>, and <strong>Prisma</strong>. Whether you are looking for a showcase site, a complete e-commerce platform, or adding functionality to your site, I have got solutions for your business!
 </p>
 
           </AnimatedElement>
