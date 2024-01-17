@@ -29,6 +29,7 @@ export default function ProjectsList() {
           link={project.link}
           id={project.id}
           img={project.image}
+          webSite={project.webSite || null}
         />
     
       ))}

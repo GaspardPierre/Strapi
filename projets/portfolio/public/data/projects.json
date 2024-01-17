@@ -2,22 +2,27 @@
     {
       "id": 1,
       "title": "Bloggy",
-      "description": "Un blog pour gérer , publier des photos, des vidéos pour adolescents en décrochage scolaire",
+      "description":"A blog to manage , publish photos, videos for teenagers dropping out of school",
       "image": "/bloggy.jpg",
-      "link":"https://github.com/GaspardPierre/Bloggy-front"
+      "link":"https://github.com/GaspardPierre/Bloggy-front",
+      
+      "tags":["React", "Redux","CSS"]
     },
     {
       "id": 2,
       "title": "Plume2.0",
-      "description": "Un blog de poésie destinée à faire connaitre le travail d'un poète en devenir",
+      "description": "A poetry blog designed to showcase the work of an up-and-coming poet",
       "image": "/Plume2-0.png",
-      "link":"https://github.com/GaspardPierre/Plume2.0"
+      "link":"https://github.com/GaspardPierre/Plume2.0",
+      "tags":["React", "Redux","React-Admin","Bootsrap","Prisma","PostgreSQL"],
+      "webSite":"https://matthieumouquet.fr"
     },
     {
       "id": 3,
-      "title": "GitubAPI",
-      "description": "Un moteur de recherche pour des repos Github",
-      "image": "/Github.png",
-      "link":"https://github.com/GaspardPierre/Github-Api"
+      "title": "HairCut",
+      "description": "A modern, uncluttered website for a hairdressing salon with an integrated appointment scheduling system",
+      "image": "/woman.jpg",
+      "link":"https://github.com/GaspardPierre/HairCut",
+      "tags":["React", "Taillwind CSS","Express"]
     }
   ]

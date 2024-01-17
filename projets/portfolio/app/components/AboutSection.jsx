@@ -16,13 +16,10 @@ export default function AboutSection() {
               id="about">About Me</h2>
                </AnimatedElement>
                <AnimatedElement>
-          <p className="font-body mb-8  text-left leading-8">
-            Meet <strong>Pierre Dillard</strong>, a dynamic <strong>Fullstack Web Developer</strong>
-             and experienced <strong>Sales Professional</strong>
-             . Transitioning from a decade-long career in insurance sales to web development, I blend customer-centric insights with technical skills in <strong>
-                React</strong>, <strong>Node.js</strong>, 
-                <strong>Express</strong>, and <strong>Sequelize</strong>. My recent work at <strong>Ethnic Blue</strong> in enhancing digital experiences, coupled with my acumen in sales and client relations, positions me uniquely to create tailored web solutions that resonate with users and drive business success.
-          </p>
+                <p className="font-body mb-8  text-left leading-8">
+               I'm <strong>Pierre Dillard</strong>, a dynamic <em>Fullstack web developer</em> and experienced sales professional. I combine a customer-centric vision with technical skills in <strong>React</strong>, <strong>Node.js</strong>, <strong>Express</strong>, and <strong>Prisma</strong>. Whether you're looking for a showcase site, a complete e-commerce platform, or adding functionality to your site, I've got solutions for your business!
+</p>
+
           </AnimatedElement>
 
         

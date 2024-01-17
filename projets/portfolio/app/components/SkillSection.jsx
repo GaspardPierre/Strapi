@@ -1,8 +1,8 @@
 "use client";
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFigma, faReact, faNodeJs, faGitAlt,faCss3Alt, faJsSquare} from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faTasks, faComments } from '@fortawesome/free-solid-svg-icons';
+import { faFigma, faReact, faNodeJs, faGitAlt,faCss3Alt, faJsSquare, faLinux} from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faTasks, faComments,  faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 import AnimatedElement from './AnimatedElement';
 
 export default function SkillSection() {
@@ -25,6 +25,7 @@ export default function SkillSection() {
             <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faJsSquare} className="mr-2" />Redux</p>
       
             <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faReact} className="mr-2" />React</p>
+            <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faCodeBranch} className="mr-2" />Bubble</p>
            
            
           </div>
@@ -43,6 +44,7 @@ export default function SkillSection() {
             <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faGitAlt} className="mr-2" />Git & GitHub</p>
             <p className="font-body text-center py-1 md:py-3"><FontAwesomeIcon icon={faTasks} className="mr-2" />Trello</p>
             <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faComments} className="mr-2" />ChatGPT</p>
+            <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faLinux} className="mr-2" />Linux</p>
           </div>
         </AnimatedElement>
       </div>
