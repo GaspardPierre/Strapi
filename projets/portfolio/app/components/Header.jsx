@@ -4,11 +4,13 @@ import Image from "next/image";
 import useOutsideClick from "../Hooks/useOutsideClick";
 import Link from "next/link";
 
-export default function Header( {isMenuOpen, setIsMenuOpen}) {
+
+export default function Header( {isMenuOpen, setIsMenuOpen, setShowPdf}) {
 
   const menuRef = useRef();
   useOutsideClick(menuRef, () => setIsMenuOpen(false));
   return (
+  
     <header className="flex justify-between items-center p-5  bg-header w-full z-100 sticky z-50 top-0 mx-auto">
       <div className="w-24 rounded-full overflow-hidden">
         <Image
@@ -83,7 +85,7 @@ export default function Header( {isMenuOpen, setIsMenuOpen}) {
           } sm:flex sm:flex-row items-center sm:h-100`}
         >
           <ul className="mt-20 sm:mt-0 sm:flex sm:flex-row sm:space-x-4 sm:h-100">
-            <li className="p-2 x-4 sm:p-2 font-body text-white sm:text-navlink transition-colors duration-300 hover:border-b-2 hover:border-border-1 cursor-pointer text-center">
+            <li className="p-2 x-4 sm:p-2 font-body text-white sm:text-navlink transition-colors duration-300 border-b-2 border-transparent hover:border-b-2 hover:border-border-1 cursor-pointer text-center">
               <Link href="#home">Home</Link>{" "}
             </li>
             <li className="p-2 x-4 sm:p-2 font-body text-white sm:text-navlink transition-colors duration-300 ease-in hover:border-b-2  hover:border-border-1  cursor-pointer text-center">
@@ -95,9 +97,16 @@ export default function Header( {isMenuOpen, setIsMenuOpen}) {
             <li className="p-2 x-4 sm:p-2 font-body text-white sm:text-navlink transition-colors duration-300 ease-in hover:border-b-2 hover:border-border-1  cursor-pointer text-center">
               <Link href="#contact">Contact</Link>{" "}
             </li>
+            <li className="p-2 x-4 sm:p-2 font-body text-white sm:text-navlink transition-colors duration-300 ease-in hover:border-b-2 hover:border-border-1 cursor-pointer text-center" >
+            <a href="/Tarifs.pdf" download="Tarifs.pdf">
+          Tarifs
+        </a>
+          </li>
+          
           </ul>
         </nav>
       </div>
     </header>
+   
   );
 }

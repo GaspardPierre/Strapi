@@ -6,7 +6,7 @@ import AnimatedElement from './AnimatedElement';
 export default function AboutSection() {
   return (
     <>
-      <section className="flex flex-col justify-center items-center bg-gradient-to-r from-section to-section-2 p-6 pt-28 lg:pt-48" >
+      <section className="flex flex-col justify-center items-center bg-gradient-to-r from-section  to-section-2 p-6 pt-28 lg:pt-48" >
         <div className="container mx-auto px-0 md:px-4 ">
       
             <div className='container mx-auto px-4 md:w-2/3 '>

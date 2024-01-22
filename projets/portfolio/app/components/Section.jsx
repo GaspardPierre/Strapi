@@ -13,7 +13,7 @@ export default function Section() {
 
   return (
     <>
-      <section className="flex justify-center bg-gradient-to-r from-section to-section-2 p-5 max-h-screen lg:mt-5 pt-28 lg:pt-32"
+      <section className="flex justify-center bg-gradient-to-r from-section  to-section-2 p-5 max-h-screen lg:mt-5 pt-28 lg:pt-32"
       id="home">
         <div className='flex flex-col sm:flex-row justify-around w-full group'>
           <AnimatedElement>

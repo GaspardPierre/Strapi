@@ -10,7 +10,7 @@ export default function SocialMediaSection() {
 
 
   return (
-    <section className=" bg-gradient-to-r from-section to-section-2 p-0 lg:p-5 ">
+    <section className=" bg-gradient-to-r from-section  to-section-2 p-0 lg:p-5 ">
       <div className="mx-auto flex justify-center  ">
         <div className="flex flex-wrap items-center justify-center " >
           <Link href="https://github.com/GaspardPierre">
