@@ -23,6 +23,6 @@
       "description": "A modern, uncluttered website for a hairdressing salon with an integrated appointment scheduling system",
       "image": "/woman.jpg",
       "link":"https://github.com/GaspardPierre/HairCut",
-      "tags":["React", "Taillwind CSS","Express"]
+      "tags":["React", "Taillwind CSS","Express","MongoDB"]
     }
   ]
