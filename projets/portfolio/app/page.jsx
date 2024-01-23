@@ -17,7 +17,7 @@ export default function Home() {
   return (
 
 
-  <div className='bg-gradient-to-r from-section to-section-2 '>
+  <div className='bg-gradient-to-r from-section to-section-2 h-100 '>
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} setShowPdf={setShowPdf}  />
       <main className={`w-full main-content ${isMenuOpen ? 'blur-sm' : ''}`}>
         
@@ -29,6 +29,7 @@ export default function Home() {
     
      
       </main>
+      <Footer/>
     
      
     </div>

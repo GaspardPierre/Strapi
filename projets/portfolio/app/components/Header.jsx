@@ -1,5 +1,6 @@
 "use client"; // This is a client component 👈🏽
 import React, { useState, useRef } from "react";
+
 import Image from "next/image";
 import useOutsideClick from "../Hooks/useOutsideClick";
 import Link from "next/link";
@@ -12,6 +13,7 @@ export default function Header( {isMenuOpen, setIsMenuOpen, setShowPdf}) {
   return (
   
     <header className="flex justify-between items-center p-5  bg-header w-full z-100 sticky z-50 top-0 mx-auto">
+
       <div className="w-24 rounded-full overflow-hidden">
         <Image
           src="/pierre.jpg"
@@ -21,7 +23,10 @@ export default function Header( {isMenuOpen, setIsMenuOpen, setShowPdf}) {
           className="object-cover"
           priority
         />
+           
       </div>
+     
+   
 
       {/* Hamburger/Cross Icon */}
       <div className="flex justify-end w-full sm:w-auto">

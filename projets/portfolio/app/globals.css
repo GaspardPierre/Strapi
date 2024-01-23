@@ -7,4 +7,6 @@ body, html {
   overflow-x: hidden; /* Empêche le défilement horizontal */
   margin: 0;
   height: 100%;
+  padding:0;
+ 
 }

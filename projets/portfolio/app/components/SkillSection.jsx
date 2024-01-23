@@ -7,9 +7,9 @@ import AnimatedElement from './AnimatedElement';
 
 export default function SkillSection() {
   return (
-    <div className="container mx-auto px-4 my-3">
+    <div className="container mx-auto px-4 my-8">
       <AnimatedElement>
-        <h2 className="text-4xl font-heading mb-8 text-center hover:text-white transition-colors duration-400 ease-in">Skills</h2>
+        <h2 className="text-4xl font-heading mb-8 text-center hover: cursor-pointer hover:text-white transition-colors duration-400 ease-in">Skills</h2>
       </AnimatedElement>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <AnimatedElement>

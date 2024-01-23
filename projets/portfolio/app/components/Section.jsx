@@ -8,6 +8,8 @@ import AnimatedElement from './AnimatedElement';
 
 
 
+
+
 export default function Section() {
 
 
@@ -28,11 +30,16 @@ export default function Section() {
             <AnimatedElement>  <span className='text-white text-4xl sm:text-6xl leading-10 my-3 hover:translate-x-3 transition-transform duration-400 ease-in cursor-pointer'>
               Inspired
             </span>  </AnimatedElement> Websites!
+            
           
           </div>
+         
           </AnimatedElement>
-        
-            <AnimatedElement>   
+   
+      
+      
+       <AnimatedElement>
+       <AnimatedElement>   
               <div>
 
               </div>
@@ -46,20 +53,17 @@ export default function Section() {
           className="object-cover hidden lg:block"
         />
         </div>
+      
      
 
             </AnimatedElement>
-              
-      
-      
-      
-       <AnimatedElement>
 
 
        </AnimatedElement>
  
         
         </div>
+      
         
       </section>
       <AnimatedElement>

@@ -42,7 +42,7 @@ export default function Contact  ()  {
 
 
   return (
-    <div className="rounded-lg shadow-lg w-full mx-auto my-10 flex flex-col items-center pt-28 lg:pt-24  "
+    <div className="rounded-lg shadow-lg w-full mx-auto my-8 flex flex-col items-center pt-28 lg:pt-24  "
     id="contact">
       <AnimatedElement>
 
