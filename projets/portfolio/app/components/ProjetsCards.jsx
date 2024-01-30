@@ -1,14 +1,15 @@
 "use client";
 import Image from 'next/image';
+import 'animate.css';
 import AnimatedElement from './AnimatedElement';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInternetExplorer } from '@fortawesome/free-brands-svg-icons';
 
 export default function ProjectCard({ name, description, id, link, img, webSite }) {
   return (
-    <div className="bg-navhover border border-border-2 hover:border-border-1 transition duration-400 p-4 rounded-lg w-4/5 md:w-1/4 h-auto" key={id}>
+    <div className="bg-navhover border hover:bg-card-hov border-border-2 hover:border-border-1 transition duration-400 p-4 rounded-lg w-4/5 md:w-1/4 h-auto " key={id}>
       <AnimatedElement>
-        <div className="image-container">
+        <div className="image-container ">
           <Image
             src={img}
             alt={`Image of ${name}`}

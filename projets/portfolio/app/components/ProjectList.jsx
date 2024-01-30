@@ -18,8 +18,8 @@ export default function ProjectsList() {
   
  
   
-    <div className='flex flex-col md:flex-row justify-center items-center  gap-4  '
-    >
+    <div className='flex flex-wrap justify-center items-center gap-8'>
+    
       {projects.map(project => (
      
           <ProjectCard

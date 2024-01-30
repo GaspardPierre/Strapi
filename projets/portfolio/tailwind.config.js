@@ -18,13 +18,14 @@ module.exports = {
        'body': '#F2FAFB',
         'header': '#F2FAFB',
         'navlink' : '#107D98',
-        'navhover':'#0D3C48',
+        'navhover':'#101B20',
         'xsmenu' :'#00A2C7',
         'section':'#0797B9',
-        'section-2':'#0D3C48',
+        'section-2':'#101B20',
         'button' :'#3DB9CF',
         'border-1':'#7DCEDC',
-        'border-2' :'#12677E'
+        'border-2' :'#12677E',
+        'card-hov':'#0D1520',
       },
       transitionProperty: {
         'width': 'width'

@@ -24,5 +24,13 @@
       "image": "/woman.jpg",
       "link":"https://github.com/GaspardPierre/HairCut",
       "tags":["React", "Taillwind CSS","Express","MongoDB"]
+    },
+    {
+      "id": 4,
+      "title": "Pizza company",
+      "description": "An application dedicated to online pizza ordering with a geolocation system.",
+      "image": "/pizza.png",
+      "link":"https://github.com/GaspardPierre/Pizza_company",
+      "tags":["React", "Taillwind CSS","Redux"]
     }
   ]
