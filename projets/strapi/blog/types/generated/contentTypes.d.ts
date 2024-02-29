@@ -801,19 +801,20 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     Image: Attribute.Media;
     Video: Attribute.Media;
     VideoUrl: Attribute.String;
-    tags: Attribute.Relation<
-      'api::article.article',
-      'manyToMany',
-      'api::tag.tag'
-    >;
     slug: Attribute.String &
       Attribute.Required &
       Attribute.Unique &
+      Attribute.Configurable &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
         };
       }>;
+    tags: Attribute.Relation<
+      'api::article.article',
+      'manyToMany',
+      'api::tag.tag'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
