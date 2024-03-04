@@ -8,5 +8,10 @@ module.exports = [
         middlewares: [],
       },
     },
+    {
+      method: 'GET',
+      path: '/articles/:tag',
+      handler: 'api::article.custom-article.findByTag',
+    },
   ];
   

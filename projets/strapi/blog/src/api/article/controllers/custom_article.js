@@ -9,4 +9,21 @@ module.exports = {
       
           return article ? article : ctx.notFound();
         },
+
+        async findByTag(ctx) {
+          const { tag } = ctx.query;
+      
+          const articles = await strapi.db.query('api::article.article').findMany({
+            where: {
+              tags: {
+                name: {
+                  $containsi: tag, 
+                },
+              },
+            },
+            populate: { tags: true }, 
+          });
+      
+          return articles;
+        },
       };
