@@ -47,7 +47,7 @@ export default function Contact  ()  {
       <AnimatedElement>
 
      
-      <h2 className="text-header text-3xl  font-heading mb-6 lg:py-10 ">Contact Me</h2> </AnimatedElement>
+      <h2 className="text-header text-2xl text-center md:text-4xl  font-heading mb-6 lg:py-10 ">Contact <strong>Pierre Dillard </strong>Web <strong>Developer </strong></h2> </AnimatedElement>
      
       <form onSubmit={handleSubmit}
        className="space-y-6 w-4/5 lg:w-3/4 xl:w-2/4 my-10"

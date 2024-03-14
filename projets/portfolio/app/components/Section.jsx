@@ -48,7 +48,7 @@ export default function Section() {
           src="/pierre.jpg"
           width={512}
           height={512}
-          alt="Profile image"
+          alt="Photo-Pierre Dillard-Web developper"
           priority
           className="object-cover hidden lg:block"
         />
@@ -68,7 +68,7 @@ export default function Section() {
       </section>
       <AnimatedElement>
 
-      <SocialMediaSection />
+     
       </AnimatedElement>
    
     </>

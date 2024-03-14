@@ -6,14 +6,14 @@ import AnimatedElement from './AnimatedElement';
 export default function AboutSection() {
   return (
     <>
-      <section className="flex flex-col justify-center items-center bg-gradient-to-r from-section  to-section-2 p-6 pt-28 lg:pt-48 my-8"  id="about" >
+      <section className="flex flex-col justify-center items-center bg-gradient-to-r from-section  to-section-2 p-6 pt-28 lg:pt-45my-8"  id="about" >
         <div className="container mx-auto px-0 md:px-4 ">
       
             <div className='container mx-auto px-4 md:w-2/3 '>
             <AnimatedElement>
-                <h2 className="text-4xl font-heading my-5 text-center
+                <h2 className="text-2xl md:text-4xl font-heading my-10 text-center text-white
               "
-             >About Me</h2>
+             >About Pierre Dillard - Web <strong>Developer’s Journey</strong></h2>
                </AnimatedElement>
                <AnimatedElement>
            
@@ -30,7 +30,7 @@ export default function AboutSection() {
             </div>
            
         
-          <SkillSection/>
+        
         </div>
       </section>
     </>

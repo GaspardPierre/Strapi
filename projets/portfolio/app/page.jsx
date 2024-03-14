@@ -7,6 +7,8 @@ import Footer from './components/Footer'
 import AboutSection from './components/AboutSection'
 import ProjectsList from './components/ProjectList';
 import ContactSection from'./components/ContactSection';
+import SocialMediaSection from './components/SocialMediaSection';
+import SkillSection from './components/SkillSection';
 
 export default function Home() {
 
@@ -24,8 +26,10 @@ export default function Home() {
         <Section/>
    
      <AboutSection/>
+     <SkillSection/>
      <ProjectsList />
      <ContactSection />
+     <SocialMediaSection />
     
      
       </main>
