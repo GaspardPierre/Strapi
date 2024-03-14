@@ -25,7 +25,7 @@ export default function SkillSection() {
             <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faJsSquare} className="mr-2" />Redux</p>
       
             <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faReact} className="mr-2" />React</p>
-            <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faCodeBranch} className="mr-2" />Bubble</p>
+            <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faCodeBranch} className="mr-2" />NextJS</p>
            
            
           </div>
@@ -36,6 +36,7 @@ export default function SkillSection() {
             <p className="font-body text-center py-1 md:py-3"><FontAwesomeIcon icon={faNodeJs} className="mr-2" />Node.js</p>
             <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faDatabase} className="mr-2" />Prisma</p>
             <p className="font-body text-center py-1 md:py-3"><FontAwesomeIcon icon={faDatabase} className="mr-2" />PostgreSQL</p>
+            <p className="font-body text-center text-white py-1 md:py-3"><FontAwesomeIcon icon={faDatabase} className="mr-2" />Strapi</p>
           </div>
         </AnimatedElement>
         <AnimatedElement>
